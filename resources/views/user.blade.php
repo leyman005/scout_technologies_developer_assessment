@@ -80,10 +80,10 @@
                             <textarea class="form-control" name="bio" cols="10" rows="5" placeholder="Enter biography...">{{ $user->bio }}</textarea>
                         </div>
 
-                        <!-- <div class="form-group">
+                        <div class="form-group">
                             <label>Password</label>
                             <input type="password" readonly name="password" value="{{ $user->password }}" class="form-control" placeholder="Enter password...">
-                        </div> -->
+                        </div>
 
 
                         <input type="submit" name="save" class="btn btn-info" value="Update">
